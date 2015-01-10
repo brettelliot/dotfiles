@@ -15,6 +15,8 @@ Plugin 'goatslacker/mango.vim'
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'rking/ag.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
