@@ -82,8 +82,13 @@ map <C-l> <C-w>l
 
 " Buffers
 " open buffer explorer with \b
-imap \e <ESC>:BufExplorer<CR>
-:map \e :BufExplorer<CR>
+"imap \e <ESC>:BufExplorer<CR>
+":map \e :BufExplorer<CR>
+
+" Buffers
+" Open buffer explorer with Ctrl-o (the letter)
+imap <C-o> <ESC>:BufExplorer<CR>
+:map <C-o> :BufExplorer<CR>
 
 " Switch between buffers
 "map <C-n> :bnext<CR>
