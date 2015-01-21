@@ -19,6 +19,14 @@ Plugin 'rking/ag.vim'
 
 Plugin 'jlanzarotta/bufexplorer'
 
+Plugin 'gregsexton/MatchTag'
+
+" This lets you operate on the quicklist as if it was the args list.
+" Now I can use Ag for search and replace in multiple files like this:
+" :Ag "search"
+" :Qdo %s/search/replace/gce | update 
+Plugin 'henrik/vim-qargs'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
